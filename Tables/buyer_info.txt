@@ -1,0 +1,28 @@
+CREATE TABLE buyer_info 
+
+(
+  	email varchar(45) NOT NULL,
+
+ 	pid char(4) NOT NULL,
+ 
+	atime int(11) NOT NULL,
+
+ 	bid float NOT NULL,
+ 
+	PRIMARY KEY (email)
+
+) 
+
+
+
+insert into buyer_info values('dijay778@gmail.com','1000',20,3500)
+
+insert into buyer_info values('Isuri123@gmail.com','1000',20,2500)
+
+insert into buyer_info values('Kasuni123@gmail.com','1000',20,3000)
+
+insert into buyer_info values('kijay778@gmail.com','1000',30,8000)
+
+insert into buyer_info values('sandaliupeka96@gmail.com','1000',15,7000)
+
+insert into buyer_info values('shehan123@gmail.com','1000',20,3700)

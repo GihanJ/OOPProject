@@ -1,0 +1,59 @@
+CREATE TABLE customers
+
+(
+  
+	name varchar(45) NOT NULL,
+
+  	email varchar(45) NOT NULL,
+ 
+ 	address varchar(45) NOT NULL,
+
+  	password varchar(45) NOT NULL,
+ 
+ 	role varchar(10) NOT NULL,
+ 
+ 	PRIMARY KEY (email)
+
+) 
+
+
+
+
+
+insert into customers values('Gihan','gijay778@gmail.com','198/20,Borella Road,Depanama,Pannipitiya','INCORRECT1234@a','Admin')
+
+insert into customers values('Audrey','audrey123@gmail.com','89/12 Barnes Place, Colombo','Audrey12@a','Admin')
+
+insert into customers values('Jackson','jacky@gmail.com','459 Union Place, Colombo','Jackson#a123','Admin')
+
+insert into customers values('Max','max1234@gmail.com','982b Kotte Road, Sri Jayawardenepura Kotte','max1234@TY','Admin')
+
+insert into customers values('Scott','scottbucky@gmail.com','239 Nawala Road, Sri Jayawardenepura Kotte','INCORRECT1234@a','Admin')
+
+
+
+insert into customers values('Kehan','kijay778@gmail.com','121/14,Negombo Road,Wattala','INCORRECT1234@a','Buyer')
+
+insert into customers values('Dewon','dijay778@gmail.com','167/12,Homagama','INCORRECT1234@a','Buyer')
+
+insert into customers values('Isuri','Isuri123@gmail.com','Malabe','Isuri123@a','Buyer')
+
+insert into customers values('Shehan','shehan123@gmail.com','134 Philip Gunawardena Mawatha, Colombo','INCORRECT1234@a','Buyer')
+
+insert into customers values('Sandali','sandaliupeka96@gmail.com','145/12 Jayantha Weerasekara Mawatha, Colombo','INCORRECT1234@a','Buyer')
+
+insert into customers values('Kasuni','kasuni123@gmail.com','63 Kynsey Road, Colombo','Kasuni123@bc','Buyer')
+
+
+
+insert into customers values('Sahan','sijay778@gmail.com','87/12 Union Place,Colombo','INCORRECT12345@a','Seller')
+
+insert into customers values('Arthur','arthur@gmail.com','76 Park Street, Colombo','WEEKEND234@a','Seller')
+
+insert into customers values('Anna','anna123@gmail.com','349 8/1 Galle Road, Colombo','ANNA123@a','Seller')
+
+insert into customers values('kody','kody@gmail.com','365 R. A. De Mel Mawatha, Colombo','INCORRECT12345@a','Seller')
+
+insert into customers values('Clara','clarasandy@gmail.com','125 Rosmead Place, Colombo','INCORRECT123@a','Seller')
+
+insert into customers values('Olivia','olivia778@gmail.com','34 Wijerama Mawatha, Colombo','INCORRECT1234@a','Seller')

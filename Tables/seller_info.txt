@@ -1,0 +1,30 @@
+CREATE TABLE seller_info
+
+(
+  
+	email varchar(45) NOT NULL,
+
+  	pid char(4) NOT NULL,
+ 
+ 	atime int(11) NOT NULL,
+ 
+ 	minPrice float NOT NULL,
+ 
+ 	PRIMARY KEY (email)
+
+) 
+
+
+
+
+insert into seller_info values('anna123@gmail.com','6000',200,5600)
+
+insert into seller_info values('arthur@gmail.com','2000',20,2500)
+
+insert into seller_info values('clarasandy@gmail.com','4000',250,2700)
+
+insert into seller_info values('kody@gmail.com','3000',240,2500)
+
+insert into seller_info values('olivia778@gmail.com','5000',250,2900)
+
+insert into seller_info values('sijay778@gmail.com','1000',15,6000)

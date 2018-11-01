@@ -1,0 +1,30 @@
+CREATE TABLE auction_info
+
+(
+ 	pid char(4) NOT NULL,
+
+  	aid char(4) NOT NULL,
+ 
+	atime int(11) NOT NULL,
+ 
+	PRIMARY KEY (pid)
+
+) 
+
+
+
+
+
+insert into auction_info values('1000','2000',20)
+
+insert into auction_info values('1212','1234',300)
+
+insert into auction_info values('1234','5678',30)
+
+insert into auction_info values('1237','5678',100)
+
+insert into auction_info values('1245','2232',60)
+
+insert into auction_info values('1267','7896',90)
+
+insert into auction_info values('1333','2345',190)

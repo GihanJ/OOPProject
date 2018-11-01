@@ -1,0 +1,28 @@
+CREATE TABLE payment 
+
+(
+  
+	CardNo char(16) NOT NULL,
+
+ 	CardName varchar(45) NOT NULL,
+
+	ExpiryDate char(4) NOT NULL,
+ 
+	Cvv char(3) NOT NULL,
+ 
+	PRIMARY KEY (CardNo)
+
+) 
+
+
+
+
+insert into payment values('1234123412341234','Gihan','2002','233')
+
+insert into payment values('2345234523452345','Sahan','2102','235')
+
+insert into payment values('3456345634563456','Shehan','2212','236')
+
+insert into payment values('4567456745674567','Dewon','2008','237')
+
+insert into payment values('5678567856785678','Kehan','2003','234')
